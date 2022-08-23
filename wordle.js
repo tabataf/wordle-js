@@ -123,7 +123,7 @@ function intialize() {
     })
 }
 
-function processKey() {
+function processKey(e) {
     e = { "code" : this.id };
     processInput(e);
 }
