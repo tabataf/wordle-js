@@ -11,6 +11,11 @@ body {
     color: #EA638C;
 }
 
+.aswer {
+    margin-bottom: 2rem;
+    margin-top: 0rem;
+}
+
 #board {
     width: 359px;
     height: 420px;
