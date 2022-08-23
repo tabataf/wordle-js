@@ -214,6 +214,7 @@ function update() {
 
         if (correct == width) {
             gameOver = true;
+            startConfetti()
         }
     }
 

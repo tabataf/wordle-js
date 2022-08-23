@@ -122,3 +122,8 @@ font-size: 15px;
     font-size: 1.1rem;
     margin: 0.7rem;
 } */
+
+#confetti-canvas{
+    position: absolute;
+    top: 0;
+}
