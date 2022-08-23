@@ -174,7 +174,7 @@ function update() {
 
 
     if (!guessList.includes(guess)) {
-        document.getElementById("answer").innerText = "Essa palavra nao existe na nossa lista";
+        document.getElementById("answer").innerText = "Essa palavra não existe na nossa lista";
         return;
     }
 
