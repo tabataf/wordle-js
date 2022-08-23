@@ -104,13 +104,21 @@ body {
 }
 
 @media(max-width:500px) {
- .key-tile{
-     font-size: 15px;
- }
+.key-tile{
+font-size: 15px;
+}
+.enter-key-tile{
+    font-size: 15px;
+}
 }
 
 /* @media(max-width:900px){
     .key-tile{
     font-size: 25px;
     }
+} */
+
+/* .regra {
+    font-size: 1.1rem;
+    margin: 0.7rem;
 } */
