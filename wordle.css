@@ -1,20 +1,21 @@
 body {
     /* font-family: Arial, Helvetica, sans-serif; */
     text-align: center;
+    justify-content: center;
 }
 
 #title {
     font-size: 36px;
     font-weight: bold;
     letter-spacing: 2px;
+    color: #EA638C;
 }
 
 #board {
     width: 391px;
     height: 420px;
     margin: 0 auto;
-    margin-top: 42px;
-    margin-bottom: 61px;
+    margin-bottom: 41px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -22,12 +23,13 @@ body {
 .tile {
     /* Box */
     border: 2px solid lightgray;
-    width: 68px;
+    width: 62px;
     height: 65px;
     margin: 2.5px;
+    border-radius: 5px;
 
     /* Text */
-    color: black;
+    color: rgb(114, 111, 111);
     font-size: 36px;
     font-weight: bold;
     display: flex;
@@ -55,39 +57,43 @@ body {
 
 
 .keyboard-row {
-    width: 463px;
     justify-content: center;
     margin: 13px auto;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .key-tile {
-    width: 22px;
     height: 40px;
     margin: 1px;
-    border: 1px solid lightgray;
+    border: 1px solid lightgrey;
     font-size: 20px;
     font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3px;
+    margin: 1.7px;
     cursor: pointer;
     text-transform: uppercase;
     border-radius: 5px;
     padding: 0.5rem;
+    border-radius: 5px;
 }
 
 .enter-key-tile {
     width: 83px;
     height: 52px;
     margin: 1px;
-    border: 1px solid lightgray;
+    border: 1px solid lightgrey;;
     font-size: 20px;
     font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 5px;
+    border-radius: 5px;
+}
+
+.sub{
+    color: #9d9cae;
 }
