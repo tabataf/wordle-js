@@ -1,4 +1,5 @@
 var wordList = ["sagaz",
+"amora",
 "ossos",
 "olhos",
 "vinho",
