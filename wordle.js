@@ -9,7 +9,7 @@ var gameOver = false;
 wordList.includes('palavra')
 
 let palavradodia
-console.log(wordList[0])
+// console.log(wordList[0])
 palavrapordia()
 function palavrapordia() {
     var listDate = []
@@ -42,7 +42,7 @@ let indice = listDate.indexOf(new Date().toLocaleDateString())
 let dia = wordList[indice]
 palavradodia= dia.toUpperCase()
 
-console.log(listDate)
+// console.log(listDate)
 }
 
 
@@ -193,7 +193,7 @@ function update() {
         letterCount[letter] = 1;
         }
     }
-    console.log(letterCount);
+    // console.log(letterCount);
 
     //primeira iteração, verifique todas as corretas primeiro
     for (let c = 0; c < width; c++) {
@@ -218,7 +218,7 @@ function update() {
         }
     }
 
-    console.log(letterCount);
+    // console.log(letterCount);
     // marque quais estão certas, mas na posição errada
     for (let c = 0; c < width; c++) {
         let currTile = document.getElementById(row.toString() + '-' + c.toString());

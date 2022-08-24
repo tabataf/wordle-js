@@ -2,6 +2,7 @@ body {
     /* font-family: Arial, Helvetica, sans-serif; */
     text-align: center;
     justify-content: center;
+    background-color: #f0f0f017;
 }
 
 #title {
@@ -109,6 +110,20 @@ font-size: 15px;
 }
 .enter-key-tile{
     font-size: 15px;
+}
+body{
+    width: 41vh;
+}
+.tile{
+    width: 51px;
+    height: 55px
+}
+.enter-key-tile {
+    font-size: 14px;
+    width: 2.7rem;
+}
+#board{
+    margin-left: 1.3rem;
 }
 }
 
