@@ -103,6 +103,20 @@ body {
 .sub{
     color: #9d9cae;
 }
+footer{
+    bottom: 3rem;
+    position: fixed;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    left: 44%;
+    font-size: 1.2rem;
+}
+
+footer:hover{
+    color: #EA638C;
+}
 
 @media(max-width:500px) {
 .key-tile{
@@ -125,6 +139,12 @@ body{
 #board{
     margin-left: 1.3rem;
 }
+footer{
+    margin: auto;
+    top: 94%;
+    left: 25%;
+}
+
 }
 
 /* @media(max-width:900px){
