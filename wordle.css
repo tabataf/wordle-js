@@ -1,15 +1,16 @@
 body {
-    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     justify-content: center;
-    background-color: #f0f0f017;
+    background-image: url(https://img.freepik.com/vetores-premium/fundo-de-nuvens-de-algodao-de-acucar-em-aquarela_23-2149230238.jpg?w=2000);
+    background-size: cover ;
 }
 
 #title {
     font-size: 36px;
     font-weight: bold;
     letter-spacing: 2px;
-    color: #EA638C;
+    color: #8255dd;
 }
 
 .aswer {
@@ -28,14 +29,14 @@ body {
 
 .tile {
     /* Box */
-    border: 2px solid lightgray;
+    border: 2px solid #9da4b5;
     width: 62px;
     height: 65px;
     margin: 2.5px;
     border-radius: 5px;
 
     /* Text */
-    color: rgb(114, 111, 111);
+    color:#5f6e76ce;
     font-size: 36px;
     font-weight: bold;
     display: flex;
@@ -43,36 +44,21 @@ body {
     align-items: center;
 }
 
-.correct {
-    background-color: #6AAA64;
-    color: white;
-    border-color: white;
-}
-
-.present {
-    background-color: #C9B458;
-    color: white;
-    border-color: white;
-}
-
-.absent {
-    background-color: #787C7E;
-    color: white;
-    border-color:white;
-}
 
 
 .keyboard-row {
     justify-content: center;
     margin: 13px auto;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .key-tile {
     height: 40px;
     margin: 1px;
-    border: 1px solid lightgrey;
+    /* color: rgb(65, 62, 62); */
+    background-color: #4482a04c;;
+    /* border: 1px solid rgb(42, 76, 139); */
     font-size: 25px;
     font-weight: bold;
     display: flex;
@@ -86,36 +72,58 @@ body {
     /* border-radius: 5px; */
 }
 
+#backspace{
+    width: 70px;
+    height: 40px;
+}
+
 .enter-key-tile {
-    width: 83px;
-    height: 52px;
+    width: 70px;
+    padding: 0.5rem;
+    height: 40px;
     margin: 1px;
-    border: 1px solid lightgrey;;
+    background-color: #4482a04c;
+    /* border: 1px solid lightgrey;; */
     font-size: 25px;
     font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5px;
+    /* margin-top: 5px; */
     border-radius: 5px;
+}
+
+.correct {
+    background-color: #76ae71;;
+    color: white;
+    border-color: white;
+}
+
+.present {
+    background-color: #c9bd89;
+    color: white;
+    border-color: white;
+}
+
+.absent {
+    background-color:  #94999ba5;;
+    color: white;
+    border-color:white;
 }
 
 .sub{
     color: #9d9cae;
 }
-footer{
-    bottom: 3rem;
-    position: fixed;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    left: 44%;
+.link p {
     font-size: 1.2rem;
+    color: #7653bc;
 }
 
-footer:hover{
-    color: #EA638C;
+.link2 a{
+    color: #7653bc;;
+}
+.link2 a:hover{
+    color: #c03fad;
 }
 
 @media(max-width:500px) {
@@ -125,9 +133,6 @@ font-size: 15px;
 .enter-key-tile{
     font-size: 15px;
 }
-body{
-    width: 41vh;
-}
 .tile{
     width: 51px;
     height: 55px
@@ -136,8 +141,12 @@ body{
     font-size: 14px;
     width: 2.7rem;
 }
+#backspace{
+    width: 30px;
+}
 #board{
-    margin-left: 1.3rem;
+    display: flex;
+    justify-content: center;
 }
 footer{
     margin: auto;
